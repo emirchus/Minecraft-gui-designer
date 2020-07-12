@@ -1,0 +1,30 @@
+<template data-app="editor">
+    <div class="navbar">
+        <div class="left">
+            <a class="button" data-action="save"><i class="uil uil-save"></i></a>
+            <a class="button undo" data-action="undo"><i class="uil uil-redo"></i></a>
+            <a class="button" data-action="redo"><i class="uil uil-redo"></i></a>
+            <a class="button" data-action="zoom-out"><i class="uil uil-search-minus"></i></a>
+            <a class="button" data-action="zoom-in"><i class="uil uil-search-plus"></i></a>
+            <a class="button" data-action="edit"><i class="uil uil-pen"></i></a>
+        </div>
+        <div class="right">
+            <a class="button" data-action="square"><i class="uil uil-square"></i></a>
+            <a class="button" data-action="square-shape"><i class="uil uil-square-shape"></i></a>
+            <a class="button" data-action="circle"><i class="uil uil-circle"></i></a>
+            <a class="button" data-action="image"><i class="uil uil-image"></i></a>
+            <a class="button" data-action="text"><i class="uil uil-text"></i></a>
+        </div>
+    </div>
+    <div class="container-editor">
+        <div class="editor-layers">
+            <p>Layers <i class="uil uil-layers"></i></p>
+        </div>
+        <div class="editor-content">
+            <canvas id="editor-canvas"></canvas>
+        </div>
+        <div class="editor-properties">
+            <p>Properties <i class="uil uil-brackets-curly"></i></p>
+        </div>
+    </div>
+</template>

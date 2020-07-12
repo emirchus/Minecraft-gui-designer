@@ -1,0 +1,35 @@
+<template data-app="home">
+    <div class="navbar">
+        <div class="left">
+            <a redirect="editor" class="button">new project</a>
+            <a id="load-button" class="button">load project</a>
+            <form id="search-form" class="form-group">
+                <input class="form-field" type="text" placeholder="Find project">
+                <button type="submit"><i class="uil uil-search"></i></button>
+            </form>
+        </div>
+        <div class="right">
+            <div class="user-card">
+                <i class="uil uil-angle-down"></i>
+                <p>MrEmii</p>
+                <img src="https://res06.noxgroup.com/noxinfluencer/youtube/avatar/b88eb1b7b7dce6e0e6593917fd20fd1b.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="projects-content" class="projects-loader">
+        <div class="project-container">
+            <img src="https://via.placeholder.com/1000x562?text=Placeholder" alt="">
+            <div class="project-body">
+                <p class="project-title">Hola rey</p>
+                <p class="project-description">Esto es una descripción</p>
+                <ul class="project-item-list">
+                    <li class="project-item"><a class="uil uil-pen"></a></li>
+                    <li class="project-item"><a class="uil uil-copy"></a></li>
+                    <li class="project-item"><a class="uil uil-trash-alt"></a></li>
+                </ul>
+                <p class="project-date-creation"">Fri Jul 10 2020</p>
+            </div>
+        </div>
+    </div>
+</template>
